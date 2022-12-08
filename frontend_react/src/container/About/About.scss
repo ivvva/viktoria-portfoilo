@@ -1,0 +1,35 @@
+.container {
+display: flex;
+align-items: center;
+}
+
+.rect {
+  margin-left:-8px;
+  position: relative;
+  img {
+    width: 100vw;
+    height: 100%;
+  }
+}
+
+.about {
+  position: absolute;
+  right: 0;
+  padding-right: 10px;
+  color: #F1F1F1;
+  border: none;
+  h2 {
+    text-align: right;
+    font-size: 3rem;
+    border: none;
+    margin: 0px;
+    right: 100px;
+    background-color: transparent;
+    font-family: 'GiganticFS';
+    text-transform: uppercase;
+  }
+}
+
+.gif {
+  position: absolute;
+}

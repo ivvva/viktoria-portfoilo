@@ -1,0 +1,40 @@
+body {
+  background-color: #BDFC49;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  margin-right: 100px;
+  left: 20;
+}
+
+h1 {
+  color: #010101;
+  font-family: 'Kharkiv Tone';
+  font-size: 8rem;
+  margin-left: 2%;
+  z-index: 10;
+}
+
+a {
+  font-family: 'dity';
+  font-size: 2rem;
+  text-decoration: none;
+  color: #010101;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 120px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.decoration {
+  position: relative;
+  right: -10px;
+  top: -10px;
+}

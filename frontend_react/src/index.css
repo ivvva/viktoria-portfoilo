@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Kharkiv Tone';
+  src: url(./assets/fonts/Kharkiv\ Tone.ttf) ;
+  font-family: 'GiganticFS';
+  src: url(./assets/fonts/GiganticFs.ttf);
+  font-family: 'dity';
+  src: url(./assets/fonts/dity.otf);
+}
+
+@font-face {
+  font-family:'GiganticFS'; 
+  src: url(./assets/fonts/GiganticFs.ttf);
+}
