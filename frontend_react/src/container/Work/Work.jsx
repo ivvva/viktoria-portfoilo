@@ -3,7 +3,9 @@ import './Work.scss'
 
 const Work = () => {
   return (
-    <div>Work</div>
+    <div>
+      <div className='rectangle2'></div>
+    </div>
   )
 }
 

@@ -1,5 +1,6 @@
 body {
   background-color: #BDFC49;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -7,6 +8,10 @@ body {
   text-align: center;
   margin-right: 100px;
   left: 20;
+
+  a img{
+      animation: rotating 10s infinite;
+  }
 }
 
 h1 {
@@ -35,6 +40,45 @@ a {
 
 .decoration {
   position: relative;
-  right: -10px;
+  right: -30px;
   top: -10px;
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg)
+  };
+  100% {
+    transform: rotate(180deg);
+  };
+}
+
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+
+  .decoration{
+    height: 100px;
+    right: 5px;
+    top: 5px;
+  }
+
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  a{
+    flex: 50%;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+
+    img {
+      margin-right: 10px;
+    }
+  }
 }

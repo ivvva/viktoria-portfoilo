@@ -11,7 +11,7 @@ const Header = () => {
         <img className='decoration' src={star} />
       </div>
       <div className='nav'>
-        <a href='#'> <img src={smallStar} /> 3D</a>
+        <a href='#'> <img className='rotate' src={smallStar} /> 3D</a>
         <a href='#'> <img src={smallStar} /> ILLUSTRATIONS</a>
         <a href='#'> <img src={smallStar} /> ANIMATIONS</a>
         <a href='#'> <img src={smallStar} /> LINKS</a>

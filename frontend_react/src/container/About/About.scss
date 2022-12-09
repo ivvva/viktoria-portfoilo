@@ -4,7 +4,7 @@ align-items: center;
 }
 
 .rect {
-  margin-left:-8px;
+  margin-left: 0px;
   position: relative;
   img {
     width: 100vw;
@@ -14,22 +14,69 @@ align-items: center;
 
 .about {
   position: absolute;
-  right: 0;
   padding-right: 10px;
   color: #F1F1F1;
-  border: none;
+  right: 0;
+
   h2 {
     text-align: right;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 5px;
+    word-spacing: 10px;
     border: none;
     margin: 0px;
+    margin-right: 40px;
     right: 100px;
     background-color: transparent;
-    font-family: 'GiganticFS';
-    text-transform: uppercase;
+    font-family: 'MintSansRegular';
+  }
+
+  h1{
+    color: #F1F1F1;
+    font-size: 6.8rem;
+    font-family: 'Kharkiv Tone';
+    margin-top: -160px;
+    margin-left: 700px;
+    margin-bottom: 30px;
   }
 }
 
 .gif {
   position: absolute;
+}
+
+@media screen and (max-width: 600px)  {
+    .rect {
+      img {
+        margin-top: -80px;
+        height: 400px;
+        width: 130%;
+      }
+    }
+    
+    .about {
+      word-break: break-all;
+      h2 {
+        text-align: right;
+        margin-left: 50px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        word-spacing: 5px;
+      }
+    
+      h1{
+        color: #F1F1F1;
+        font-size: 2rem;
+        font-family: 'Kharkiv Tone';
+        margin-top: -90px;
+        margin-left: 600px;
+      }
+    }
+    
+    .gif {
+      position: absolute;
+      left: 0%;
+      margin-left: -200px;
+    }
 }
