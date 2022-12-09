@@ -1,10 +1,12 @@
 import React from 'react'
 import './Work.scss'
+import Isolation from '../../components/Isolation/Isolation'
 
 const Work = () => {
   return (
-    <div>
+    <div className='container2'>
       <div className='rectangle2'></div>
+      <Isolation />
     </div>
   )
 }

@@ -1,7 +1,17 @@
 .rectangle2 {
   width: 100vw;
   background-color: #010101;
-  height: 1000px;
-  margin-left: -20px;
-  margin-top: -10px;
+  height: 100vh;
+  z-index: -10;
+  position: relative;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }

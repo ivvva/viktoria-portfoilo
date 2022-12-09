@@ -1,1 +1,2 @@
-export { default as Navbar } from './Navbar/Navbar'
+export { default as Isolation } from './Isolation/Isolation'
+export { default as PinkAnimations } from './PinkAnimations/PinkAnimations'
