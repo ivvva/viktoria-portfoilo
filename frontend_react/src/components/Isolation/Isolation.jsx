@@ -23,25 +23,28 @@ const Isolation = () => {
             controls='' muted autoPlay loop
             src='/videos/isolation1.mp4'
             type='video/mp4'
-            style={{width: '100%'}} />
+            className='vid' />
         </div>
         <div>
           <video
             controls='' muted autoPlay loop
             src='/videos/isolation2.mp4'
-            type='video/mp4' />
+            type='video/mp4'
+            className='vid' />
         </div>
         <div>
           <video
             controls='' muted autoPlay loop
             src='/videos/isolation3.mp4'
-            type='video/mp4' />
+            type='video/mp4'
+            className='vid' />
         </div>
         <div>
           <video
             controls='' muted autoPlay loop
             src='/videos/isolation4.mp4'
-            type='video/mp4' />
+            type='video/mp4'
+            className='vid' />
         </div>
       </AutoplaySlider>
     </div>

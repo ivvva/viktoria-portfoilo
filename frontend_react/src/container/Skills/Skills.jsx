@@ -13,7 +13,6 @@ const Skills = () => {
          <h2> WORKS WORKS WORKS WORKS WORKS WORKS WORKS</h2>
         </Marquee>
         <h2>
-
         </h2>
       </div>
     </div>

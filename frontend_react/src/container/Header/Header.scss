@@ -1,6 +1,11 @@
 body {
   background-color: #BDFC49;
   overflow-x: hidden;
+  overflow-y: scroll;
+  margin:0;
+  padding:0;
+  max-width: 100%;
+   // min-width: 1140px;
 }
 
 .nav {
@@ -40,7 +45,7 @@ a {
 
 .decoration {
   position: relative;
-  right: -30px;
+
   top: -10px;
 }
 
