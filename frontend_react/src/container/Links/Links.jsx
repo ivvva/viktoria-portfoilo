@@ -7,7 +7,7 @@ import { FaPatreon } from 'react-icons/fa'
 
 const Links = () => {
   return (
-    <div className='container5'>
+    <div className='container5' id='links'>
       <div className='rectangle3 scrolling-limit'
         style={{ width: '100%' }}>
         <Marquee

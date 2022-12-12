@@ -5,7 +5,7 @@ import gif from '../../assets/3d.gif'
 
 const About = () => {
   return (
-    <div className='container'>
+    <div id='about' className='container'>
       <div className='rect'>
         <img draggable='false' src={rect} />
       </div>

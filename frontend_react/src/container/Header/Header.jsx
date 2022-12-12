@@ -11,10 +11,10 @@ const Header = () => {
         <img className='decoration' src={star} />
       </div>
       <div className='nav'>
-        <a href='#'> <img className='rotate' src={smallStar} /> 3D</a>
-        <a href='#'> <img src={smallStar} /> ILLUSTRATIONS</a>
-        <a href='#'> <img src={smallStar} /> ANIMATIONS</a>
-        <a href='#'> <img src={smallStar} /> LINKS</a>
+        <a href='#about'> <img className='rotate' src={smallStar} /> 3D</a>
+        <a href='#works'> <img src={smallStar} /> ILLUSTRATIONS</a>
+        <a href='#works'> <img src={smallStar} /> ANIMATIONS</a>
+        <a href='#links'> <img src={smallStar} /> LINKS</a>
       </div>
     </>
   )

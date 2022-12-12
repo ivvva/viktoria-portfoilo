@@ -5,7 +5,7 @@ import PinkAnimations from '../../components/Pink Animations/PinkAnimations'
 
 const Work = () => {
   return (
-    <div className='container2' style={{backgroundColor: '#010101'}}>
+    <div className='container2' id='works' style={{backgroundColor: '#010101'}}>
       <div className='rectangle2'></div>
       <div className='section-container'>
       <Isolation />
