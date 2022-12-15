@@ -8,7 +8,6 @@ const Isolation = () => {
 
   const AutoplaySlider = withAutoplay(AwesomeSlider);
 
-  //TODO: carousel styling (h w bg diff videos from miss vika & 3d triangles in bg )
   return (
     <div className='container3'>
       <AutoplaySlider
