@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './About.scss'
 import rect from '../../assets/rect.png'
 import gif from '../../assets/3d.gif'
-import { motion, transform, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 
 const About = () => {
@@ -16,8 +16,6 @@ const About = () => {
       .matchMedia("(min-width: 768px)")
       .addEventListener('change', e => setMatches(e.matches));
   }, []);
-
-  //if div width matches with x <= 600px show small h2, else show regular
 
   return (
     <motion.div id='about' className='container'
@@ -44,23 +42,23 @@ const About = () => {
 
         {!matches && (
           <h2>
-          Viktoria Pohribna is <br />
-          a 21y.o. freelancer <br />
-          from Ukraine. She`s <br />
-          studied the multimedia <br />
-          design course at KSADA.<br /> 
-          Viktoria has <br />
-          about a year of<br />  
-          experience in freelance<br />  
-          2D cell animation<br />
-          projects. She is also<br />
-          working as a <br />
-          freelance illustrator in <br />
-          raster and vector <br />
-          graphics. Although that<br />
-          she`s character designs<br />
-          in 2D and 3D.
-        </h2>
+            Viktoria Pohribna is <br />
+            a 21y.o. freelancer <br />
+            from Ukraine. She`s <br />
+            studied the multimedia <br />
+            design course at KSADA.<br />
+            Viktoria has <br />
+            about a year of<br />
+            experience in freelance<br />
+            2D cell animation<br />
+            projects. She is also<br />
+            working as a <br />
+            freelance illustrator in <br />
+            raster and vector <br />
+            graphics. Although that<br />
+            she`s character designs<br />
+            in 2D and 3D.
+          </h2>
         )}
 
       </div>
