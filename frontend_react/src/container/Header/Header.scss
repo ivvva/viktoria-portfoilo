@@ -5,7 +5,7 @@ body {
   margin:0;
   padding:0;
   max-width: 100%;
-   // min-width: 1140px;
+  scroll-behavior: smooth;
 }
 
 .nav {
@@ -24,7 +24,7 @@ h1 {
   font-family: 'Kharkiv Tone';
   font-size: 8rem;
   margin-left: 2%;
-  z-index: 10;
+  margin-top: 15vh;
 }
 
 a {
@@ -41,12 +41,17 @@ a {
 .head {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: -1;
+  height: 50vh;
 }
 
 .decoration {
   position: relative;
-
-  top: -10px;
+  right: -10vh;
+  top: -20vh;
+  height: 135%;
+  z-index: -1;
 }
 
 @keyframes rotating {
@@ -58,16 +63,19 @@ a {
   };
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 798px){
+  .head {
+    height: 20vh;
+  }
+
   h1{
     font-size: 2.5rem;
-    margin-top: 50px;
+    margin-top: 8vh;
   }
 
   .decoration{
-    height: 100px;
     right: 5px;
-    top: 5px;
+    top: -10vh;
   }
 
   .nav{

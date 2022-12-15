@@ -3,16 +3,9 @@ import './Header.scss'
 import star from '../../assets/star.png'
 import smallStar from '../../assets/small-star.png'
 import { motion, transform, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
 
 const Header = () => {
-
-  // const opacityVariant = {
-  //   visible: { opacity: 1, scale: 1 },
-  //   hidden: { opacity: 1, scale: 0 }
-  // }
-
+  
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -28,7 +21,10 @@ const Header = () => {
     show: { opacity: 1, scale: 1 }
   }
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0, y: -30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      >
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -50,7 +46,7 @@ const Header = () => {
         <motion.a variants={item} href='#works'> <img src={smallStar} /> ANIMATIONS</motion.a>
         <motion.a variants={item} href='#links'> <img src={smallStar} /> LINKS</motion.a>
       </motion.div>
-    </>
+    </motion.div>
   )
 }
 

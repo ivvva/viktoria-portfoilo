@@ -52,16 +52,51 @@
    }
 }
 
-@media screen and (max-width: 600px) { 
-  .container{
+.decoration-2{
+  position: relative;
+  z-index: -20;
+  right: -40vw;
+  height: 58vh;
+  animation: rotating 10s infinite;
+}
+
+@media screen and (max-width: 700px) { 
+  .container5{
     display: flex;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
   }
 
-  .rectangle {
+  .rectangle3 {
     margin-top: 0px;
     height: 125px;
+
+      h2 {
+        font-size: 6rem;
+      }
   }
-  
+
+.container5 {
+  margin-top: 100vh;
+}
+.icon-container {
+  margin-left: 0px;
+}
+
+.decoration-2 {
+  height: 40vh;
+}
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg)
+  };
+  25% {
+    transform: rotate(90deg)
+  };
+  50% {
+    transform: rotate(-90deg)
+  };
+  100% {
+    transform: rotate(0deg);
+  };
 }

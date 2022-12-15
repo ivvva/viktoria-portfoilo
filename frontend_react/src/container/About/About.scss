@@ -50,8 +50,8 @@ align-items: center;
     .rect {
       img {
         margin-top: -80px;
-        height: 400px;
-        width: 130%;
+        height: 500px;
+        width: 100%;
       }
     }
     
@@ -72,11 +72,22 @@ align-items: center;
         margin-top: -90px;
         margin-left: 600px;
       }
+      
+      h2{
+        line-height: 1rem;
+        font-size: 0.9rem;
+        margin-right: 0px;
+        margin-left: 60px;
+      }
     }
     
     .gif {
       position: absolute;
       left: 0%;
       margin-left: -200px;
+
+      img {
+        height: 10%;
+      }
     }
 }
